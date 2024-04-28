@@ -5,7 +5,7 @@ export default function NewsItem(props) {
     return (
         <>
             <div className="card my-2">
-                <img src={!imageUrl ? "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202309/ezgif-sixteen_nine_46.jpg" : imageUrl} className="card-img-top" alt="..." style={{ height: '200px' }} />
+                <img src={!imageUrl ? "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/495px-No-Image-Placeholder.svg.png?20200912122019" : imageUrl} className="card-img-top" alt="..." style={{ height: '200px' }} />
                 <div className="card-body">
                     <h5 className="card-title">{title}...</h5>
                     <p className="card-text">{description}...</p>
