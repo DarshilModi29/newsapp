@@ -8,7 +8,7 @@ export default function App() {
   const pageSize = 9;
   const apiKey = process.env.REACT_APP_NEWS_API;
 
-  const [progress, setProgress] = useState(0)
+  const [progress, setProgress] = useState(0);
   return (
     <>
       <BrowserRouter>
